@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 570px;
+    margin: 0 auto;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_container_hidden {
+    display: none;
+}
+
+.form_input {
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+}
+
+.form_button {
+    display: block;
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+.form_button_hidden {
+    display: none;
+    margin-top: 15px;
+    width: 15%;
+    height: 30px;
+}
+
+.cards {
+    width: 75px;
+    height: 75px;
+    border: 1px solid blue;
+    margin: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 100%;
+    height: 0;
+}
+
+.cards_hidden {
+    opacity: 0;
+    transition: 0.15s linear;
+    pointer-events: none;
+}
+
+.comparison_cards {
+    cursor: pointer;
+    pointer-events: none;
+    background-color: rgba(55, 184, 253, 0.6);
+    transition: 0.150s linear;
+}
+
+.cards_visible {
+    pointer-events: none;
+    background-color: rgba(55, 184, 253, 0.6);
+}
+
+.hidden {
+    display: none;
+}
+
+.heading_win_visible {
+    display: block;
+}
